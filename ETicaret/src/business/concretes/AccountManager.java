@@ -19,21 +19,21 @@ public class AccountManager implements AccountService{
 
 	@Override
 	public void add(Account account) {
-		// parola uzunluk sýnýrý
+		// parola uzunluk sï¿½nï¿½rï¿½
 		if(account.getName().length() <=2 && account.getLastName().length()<=2)
 		{
-			System.out.println("Ýsim veya Soyisim en az iki karakter içermektedir.");
+			System.out.println("ï¿½sim veya Soyisim en az iki karakter iï¿½ermektedir.");
 		}
 		if(account.getPassword().length()<=6)
 		{
-			System.out.println("Parolanýz 6 karakterden daha uzun olmalý!.");
+			System.out.println("Parolanï¿½z 6 karakterden daha uzun olmalï¿½!.");
 		}
 		
-		/* E mail kontrol sýnýfý
+		/* E mail kontrol sï¿½nï¿½fï¿½
 		for (Account checkemail : accountDao.getall()) {
 			if(checkemail.getEmail() == account.getEmail())
 			{
-				System.out.println("Bu E-mail daha önceden kullanýlmýþ!");
+				System.out.println("Bu E-mail daha ï¿½nceden kullanï¿½lmï¿½ï¿½!");
 			}
 			
 		}*/
@@ -45,25 +45,25 @@ public class AccountManager implements AccountService{
 
 	@Override
 	public void delete(Account account) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void update(Account account) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public List<Account> getAll() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public Account get(int id) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 

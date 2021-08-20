@@ -13,7 +13,7 @@ public class GoogleServiceAdapter  implements PermissionService{
 
 	@Override
 	public boolean confirmEmail() {
-		// TODO Auto-generated method stub
+		
 		return googleManager.confirmEmail();
 	}
 

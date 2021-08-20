@@ -9,6 +9,7 @@ public class Main {
 				new HibernateAccountDao(), new GoogleServiceAdapter());
 		Account account = new Account(1,"Emre","Aydin","abc@gmail.com","123456");
 		accountManager.add(account);
+		
 	}
 
 }
