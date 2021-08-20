@@ -7,9 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 		AccountManager accountManager = new AccountManager(
 				new HibernateAccountDao(), new GoogleServiceAdapter());
-		Account account = new Account(1,"Emre","Aydin","abc@gmail.com","123456");
+		Account account = new Account(2,"Onur","GOZ","abcD@gmail.com","1234566");
 		accountManager.add(account);
-		
+
 	}
 
 }
